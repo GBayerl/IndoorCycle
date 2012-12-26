@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>com_courses</name>
+	<author>Guenther Bayerl</author>
+	<creationDate>December 2012</creationDate>
+	<copyright>(C) 2012 - 2013 Guenther Bayerl. All rights reserved.
+	</copyright>
+	<license>GNU General Public License version 2 or later; see
+		LICENSE.txt</license>
+	<authorEmail>info@radsport-lupburg.de</authorEmail>
+	<authorUrl>www.radsport-lupburg.de/joomlacomp</authorUrl>
+	<version>1.0.0</version>
+	<description>COM_COURSES_XML_DESCRIPTION</description>
+
+
+	<administration>
+		<menu img="class:courses">com_courses</menu>
+		<submenu>
+			<!--
+				Note that all & must be escaped to &amp; for the file to be valid
+				XML and be parsed by the installer
+			-->
+			<menu link="option=com_courses" view="courses" img="class:courses"
+				alt="Weblinks/Links">com_courses_courses</menu>
+			<menu link="option=com_courses&amp;extension=com_courses"
+				view="levels" img="class:courses-lev" alt="Courses/Categories">com_courses_levels</menu>
+			<menu link="option=com_courses&amp;extension=com_courses"
+				view="mappings" img="class:courses-map" alt="Courses/Mappings">com_courses_mappings</menu>
+		</submenu>
+	</administration>
+</extension>
+

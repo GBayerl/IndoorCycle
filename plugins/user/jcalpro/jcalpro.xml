@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.5" type="plugin" group="user" method="upgrade">
+	<name>plg_user_jcalpro</name>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<creationDate>2012-12-03</creationDate>
+	<author>Anything Digital</author>
+	<authorEmail>admin@anything-digital.com</authorEmail>
+	<authorUrl>http://anything-digital.com</authorUrl>
+	<copyright>Copyright (c) 2006-2012 Anything-Digital.com</copyright>
+	<license>GNU/GPL</license>
+	<version>3.2.3.1587</version>
+	<description>PLG_USER_JCALPRO_XML_DESCRIPTION</description>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_user_jcalpro.sys.ini</language>
+	</languages>
+	<files>
+		<filename plugin="jcalpro">jcalpro.php</filename>
+		<filename>index.html</filename>
+		<folder>forms</folder>
+	</files>
+</extension>

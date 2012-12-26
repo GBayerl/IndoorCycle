@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="aad"
+		label="PLG_USER_MYREGISTRATION_ADDITIONAL_INFOS"
+	>
+		<field name="aad_street" type="input"
+			default=""
+			label="PLG_USER_MYREGISTRATION_STREET"
+			required="true"
+			value=""
+		/>
+
+		<field name="aad_postal" type="input"
+			default=""
+			label="PLG_USER_MYREGISTRATION_POSTALCODE"
+			required="true"
+			value=""
+		/>
+                
+		<field name="aad_city" type="input"
+			default=""
+			label="PLG_USER_MYREGISTRATION_CITY"
+			required="true"
+			value=""
+		/>
+
+       		<field name="aad_phone" type="input"
+			default=""
+			label="PLG_USER_MYREGISTRATION_PHONE"
+			required="true"
+			value=""
+		/>
+                
+	</fieldset>
+</form>

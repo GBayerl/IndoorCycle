@@ -1,0 +1,25 @@
+/**
+ * @version		$Id: map.css 772 2012-04-17 19:21:09Z jeffchannell $
+ * @package		JCalPro
+ * @subpackage	com_jcalpro
+@ant_copyright_header@
+ */
+
+#jcl_component #map_canvas_container {
+	min-width: 200px;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	display: block;
+}
+
+#jcl_component #map_canvas {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 300px;
+}
+
+fieldset.adminform textarea {
+	width: auto !important;
+}

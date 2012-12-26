@@ -1,0 +1,18 @@
+/**
+ * @version		$Id: module_debug.css 830 2012-10-25 20:52:20Z jeffchannell $
+ * @package		JCalPro
+ * @subpackage	com_jcalpro
+@ant_copyright_header@
+ */
+
+.jcalpro_module_debug {
+	width: auto;
+	display: block;
+	clear: both;
+}
+
+.jcalpro_module_debug pre {
+	width: 100%;
+	max-height: 120px;
+	overflow: scroll;
+}

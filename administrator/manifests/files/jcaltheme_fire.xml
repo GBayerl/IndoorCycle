@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.5" type="file" group="jcalpro" method="upgrade">
+	<name>FILES_JCALTHEME_FIRE</name>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<author>Anything Digital</author>
+	<authorUrl>http://anything-digital.com</authorUrl>
+	<creationDate></creationDate>
+	<copyright>2011 Anything Digital</copyright>
+	<version>3.2.3.1587</version>
+	<description>FILES_JCALTHEME_FIRE_XML_DESCRIPTION</description>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.files_jcaltheme_fire.sys.ini</language>
+	</languages>
+	<fileset>
+		<files target="media/jcalpro/themes/fire">
+			<folder>css</folder>
+			<folder>images</folder>
+			<folder>modules</folder>
+			<filename>index.html</filename>
+		</files>
+	</fileset>
+</extension>

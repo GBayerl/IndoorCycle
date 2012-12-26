@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.5" type="library" method="upgrade">
+  <name>HTMLPurifier</name>
+  <libraryname>htmlpurifier</libraryname>
+  <license>http://www.gnu.org/licenses/lgpl.html LGPL 2.1+</license>
+  <author>Edward Z. Yang</author>
+  <authorUrl>http://htmlpurifier.org</authorUrl>
+  <packager>Anything Digital</packager>
+  <packagerurl>http://anything-digital.com</packagerurl>
+  <creationDate>2012-12-03</creationDate>
+  <version>4.4.0</version>
+  <description>LIB_HTMLPURIFIER_XML_DESCRIPTION</description>
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.lib_htmlpurifier.sys.ini</language>
+    <language tag="ru-RU">ru-RU/ru-RU.lib_htmlpurifier.sys.ini</language>
+    <language tag="de-DE">de-DE/de-DE.lib_htmlpurifier.sys.ini</language>
+    <language tag="nl-NL">nl-NL/nl-NL.lib_htmlpurifier.sys.ini</language>
+    <language tag="fr-FR">fr-FR/fr-FR.lib_htmlpurifier.sys.ini</language>
+    <language tag="es-ES">es-ES/es-ES.lib_htmlpurifier.sys.ini</language>
+    <language tag="pt-BR">pt-BR/pt-BR.lib_htmlpurifier.sys.ini</language>
+    <language tag="sv-SE">sv-SE/sv-SE.lib_htmlpurifier.sys.ini</language>
+    <language tag="ro-RO">ro-RO/ro-RO.lib_htmlpurifier.sys.ini</language>
+  </languages>
+  <files>
+    <file>index.html</file>
+    <file>purifier.php</file>
+    <file>HTMLPurifier.standalone.php</file>
+    <folder>standalone</folder>
+  </files>
+</extension>

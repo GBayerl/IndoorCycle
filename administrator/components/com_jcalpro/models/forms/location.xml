@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldpath="/administrator/components/com_jcalpro/models/fields">
+	<!-- 
+	
+	Main "field" fieldset
+	
+	-->
+	<fieldset
+		name="location"
+		label="COM_JCALPRO_LOCATION"
+	>
+		<field
+			id="title" name="title"
+			type="text"
+			label="JGLOBAL_TITLE"
+			description="JFIELD_TITLE_DESC"
+			class="inputbox"
+			size="24"
+			required="true"
+		/>
+		<field
+			id="address" name="address"
+			type="jcaladdress"
+			label="COM_JCALPRO_ADDRESS_LABEL"
+			description="COM_JCALPRO_ADDRESS_DESC"
+			class="inputbox"
+			cols="25" rows="3"
+		/>
+		<field
+			id="latitude" name="latitude"
+			type="text"
+			label="COM_JCALPRO_LOCATION_LATITUDE"
+			class="inputbox"
+			default="0.0"
+		/>
+		<field
+			id="longitude" name="longitude"
+			type="text"
+			label="COM_JCALPRO_LOCATION_LONGITUDE"
+			class="inputbox"
+			default="0.0"
+		/>
+		<field
+			id="published" name="published"
+			type="jcalpublished"
+			label="COM_JCALPRO_PUBLISHED"
+			description="COM_JCALPRO_PUBLISHED_DESC"
+			class="inputbox"
+			default="1"
+		/>
+	</fieldset>
+	<!-- 
+	
+	Hidden options fieldset
+	
+	-->
+	<fieldset
+		name="hidden"
+		label="COM_JCALPRO_HIDDEN"
+	>
+		<field
+			id="id" name="id"
+			type="hidden"
+			class="readonly"
+			label="COM_JCALPRO_ID_LABEL"
+			default="0"
+			readonly="true"
+		/>
+		<field
+			id="alias" name="alias"
+			type="hidden"
+			label="JFIELD_ALIAS_LABEL"
+			description="JFIELD_ALIAS_DESC"
+			class="inputbox"
+			readonly="true"
+		/>
+		<field
+			id="created" name="created"
+			type="hidden"
+			class="readonly"
+			label="COM_JCALPRO_CREATED_LABEL"
+			default=""
+			readonly="true"
+		/>
+		<field
+			id="created_by" name="created_by"
+			type="hidden"
+			class="readonly"
+			label="COM_JCALPRO_CREATED_BY_LABEL"
+			default="0"
+			readonly="true"
+		/>
+		<field
+			id="modified" name="modified"
+			type="hidden"
+			class="readonly"
+			label="COM_JCALPRO_MODIFIED_LABEL"
+			default=""
+			readonly="true"
+		/>
+		<field
+			id="modified_by" name="modified_by"
+			type="hidden"
+			class="readonly"
+			label="COM_JCALPRO_MODIFIED_BY_LABEL"
+			default="0"
+			readonly="true"
+		/>
+		<field
+			id="city" name="city"
+			type="hidden"
+			label="COM_JCALPRO_LOCATION_CITY"
+			default=""
+		/>
+	</fieldset>
+</form>

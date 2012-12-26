@@ -1,0 +1,27 @@
+.jcalkeyval {
+	float: left;
+	display: block;
+}
+
+.jcalkeyval input {
+	float: none;
+	float: none !important;
+	margin: 5px 0;
+}
+
+.jcalkeyval_key, .jcalkeyval_stage {
+	clear: left;
+}
+
+.jcalkeyval_labels span {
+	float: left;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.jcalkeyval_labels span,
+.jcalkeyval_key,
+.jcalkeyval_value {
+	width: 28%;
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+  <name>COM_JCALPRO</name>
+  <creationDate>2012-12-03</creationDate>
+  <author>Anything Digital</author>
+  <authorEmail>admin@anything-digital.com</authorEmail>
+  <authorUrl>http://anything-digital.com</authorUrl>
+  <copyright>Copyright (c) 2006-2012 Anything-Digital.com</copyright>
+  <license>GNU/GPL</license>
+  <version>3.2.3.1587</version>
+  <description>COM_JCALPRO_DESCRIPTION</description>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+    </sql>
+  </uninstall>
+  <update>
+    <schemas>
+      <schemapath type="mysql">sql/updates/mysql</schemapath>
+    </schemas>
+  </update>
+  <scriptfile>jcalpro.install.php</scriptfile>
+  <files folder="site">
+    <filename>controller.php</filename>
+    <filename>index.html</filename>
+    <filename>jcalpro.php</filename>
+    <filename>router.php</filename>
+    <folder>controllers</folder>
+    <folder>helpers</folder>
+    <folder>models</folder>
+    <folder>views</folder>
+  </files>
+  <media destination="jcalpro" folder="media">
+    <folder>css</folder>
+    <folder>images</folder>
+    <folder>js</folder>
+    <folder>libs</folder>
+    <folder>modules</folder>
+    <folder>plugins</folder>
+    <folder>qrcodes</folder>
+    <folder>themes</folder>
+    <folder>uploads</folder>
+    <filename>index.html</filename>
+  </media>
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.com_jcalpro.ini</language>
+    <language tag="ru-RU">ru-RU/ru-RU.com_jcalpro.ini</language>
+    <language tag="de-DE">de-DE/de-DE.com_jcalpro.ini</language>
+    <language tag="nl-NL">nl-NL/nl-NL.com_jcalpro.ini</language>
+    <language tag="fr-FR">fr-FR/fr-FR.com_jcalpro.ini</language>
+    <language tag="es-ES">es-ES/es-ES.com_jcalpro.ini</language>
+    <language tag="pt-BR">pt-BR/pt-BR.com_jcalpro.ini</language>
+    <language tag="sv-SE">sv-SE/sv-SE.com_jcalpro.ini</language>
+    <language tag="ro-RO">ro-RO/ro-RO.com_jcalpro.ini</language>
+  </languages>
+  <administration>
+    <menu img="../media/jcalpro/images/jcalpro.png">COM_JCALPRO</menu>
+    <submenu>
+      <!--
+				Note that all & must be escaped to &amp; for the file to be valid
+				XML and be parsed by the installer
+			-->
+      <menu link="option=com_jcalpro&amp;view=events" view="events" img="../media/jcalpro/images/icon-16-events.png" alt="JCalPro/Events">COM_JCALPRO_EVENTS</menu>
+      <menu link="option=com_categories&amp;extension=com_jcalpro" view="categories" img="class:category" alt="JCalPro/Categories">COM_JCALPRO_CATEGORIES</menu>
+      <menu link="option=com_jcalpro&amp;view=locations" view="locations" img="../media/jcalpro/images/icon-16-locations.png" alt="JCalPro/Fields">COM_JCALPRO_LOCATIONS</menu>
+      <menu link="option=com_jcalpro&amp;view=registrations" view="registrations" img="../media/jcalpro/images/icon-16-registration.png" alt="JCalPro/Fields">COM_JCALPRO_REGISTRATIONS</menu>
+      <menu link="option=com_jcalpro&amp;view=forms" view="forms" img="../media/jcalpro/images/icon-16-forms.png" alt="JCalPro/Forms">COM_JCALPRO_FORMS</menu>
+      <menu link="option=com_jcalpro&amp;view=fields" view="fields" img="../media/jcalpro/images/icon-16-fields.png" alt="JCalPro/Fields">COM_JCALPRO_FIELDS</menu>
+      <menu link="option=com_jcalpro&amp;view=emails" view="fields" img="../media/jcalpro/images/icon-16-emails.png" alt="JCalPro/Emails">COM_JCALPRO_EMAILS</menu>
+      <menu link="option=com_jcalpro&amp;view=about" view="about" img="../media/jcalpro/images/icon-16-about.png" alt="JCalPro/Help">COM_JCALPRO_ABOUT</menu>
+      <menu link="option=com_jcalpro&amp;view=help" view="help" img="../media/jcalpro/images/icon-16-help.png" alt="JCalPro/Help">COM_JCALPRO_HELP</menu>
+    </submenu>
+    <files folder="admin">
+      <filename>access.xml</filename>
+      <filename>jcalpro.php</filename>
+      <filename>config.xml</filename>
+      <filename>controller.php</filename>
+      <filename>index.html</filename>
+      <folder>controllers</folder>
+      <folder>helpers</folder>
+      <folder>libraries</folder>
+      <folder>models</folder>
+      <folder>sql</folder>
+      <folder>tables</folder>
+      <folder>views</folder>
+    </files>
+    <languages folder="language">
+      <language tag="en-GB">en-GB/admin/en-GB.com_jcalpro.ini</language>
+      <language tag="en-GB">en-GB/admin/en-GB.com_jcalpro.emails.ini</language>
+      <language tag="en-GB">en-GB/admin/en-GB.com_jcalpro.event.ini</language>
+      <language tag="en-GB">en-GB/admin/en-GB.com_jcalpro.sys.ini</language>
+      <language tag="ru-RU">ru-RU/admin/ru-RU.com_jcalpro.event.ini</language>
+      <language tag="de-DE">de-DE/admin/de-DE.com_jcalpro.event.ini</language>
+      <language tag="nl-NL">nl-NL/admin/nl-NL.com_jcalpro.event.ini</language>
+      <language tag="fr-FR">fr-FR/admin/fr-FR.com_jcalpro.event.ini</language>
+      <language tag="es-ES">es-ES/admin/es-ES.com_jcalpro.event.ini</language>
+      <language tag="pt-BR">pt-BR/admin/pt-BR.com_jcalpro.event.ini</language>
+      <language tag="sv-SE">sv-SE/admin/sv-SE.com_jcalpro.event.ini</language>
+      <language tag="ro-RO">ro-RO/admin/ro-RO.com_jcalpro.event.ini</language>
+      <language tag="ru-RU">ru-RU/admin/ru-RU.com_jcalpro.ini</language>
+      <language tag="de-DE">de-DE/admin/de-DE.com_jcalpro.ini</language>
+      <language tag="nl-NL">nl-NL/admin/nl-NL.com_jcalpro.ini</language>
+      <language tag="fr-FR">fr-FR/admin/fr-FR.com_jcalpro.ini</language>
+      <language tag="es-ES">es-ES/admin/es-ES.com_jcalpro.ini</language>
+      <language tag="pt-BR">pt-BR/admin/pt-BR.com_jcalpro.ini</language>
+      <language tag="sv-SE">sv-SE/admin/sv-SE.com_jcalpro.ini</language>
+      <language tag="ro-RO">ro-RO/admin/ro-RO.com_jcalpro.ini</language>
+      <language tag="ru-RU">ru-RU/admin/ru-RU.com_jcalpro.emails.ini</language>
+      <language tag="de-DE">de-DE/admin/de-DE.com_jcalpro.emails.ini</language>
+      <language tag="nl-NL">nl-NL/admin/nl-NL.com_jcalpro.emails.ini</language>
+      <language tag="fr-FR">fr-FR/admin/fr-FR.com_jcalpro.emails.ini</language>
+      <language tag="es-ES">es-ES/admin/es-ES.com_jcalpro.emails.ini</language>
+      <language tag="pt-BR">pt-BR/admin/pt-BR.com_jcalpro.emails.ini</language>
+      <language tag="sv-SE">sv-SE/admin/sv-SE.com_jcalpro.emails.ini</language>
+      <language tag="ro-RO">ro-RO/admin/ro-RO.com_jcalpro.emails.ini</language>
+      <language tag="ru-RU">ru-RU/admin/ru-RU.com_jcalpro.sys.ini</language>
+      <language tag="de-DE">de-DE/admin/de-DE.com_jcalpro.sys.ini</language>
+      <language tag="nl-NL">nl-NL/admin/nl-NL.com_jcalpro.sys.ini</language>
+      <language tag="fr-FR">fr-FR/admin/fr-FR.com_jcalpro.sys.ini</language>
+      <language tag="es-ES">es-ES/admin/es-ES.com_jcalpro.sys.ini</language>
+      <language tag="pt-BR">pt-BR/admin/pt-BR.com_jcalpro.sys.ini</language>
+      <language tag="sv-SE">sv-SE/admin/sv-SE.com_jcalpro.sys.ini</language>
+      <language tag="ro-RO">ro-RO/admin/ro-RO.com_jcalpro.sys.ini</language>
+    </languages>
+  </administration>
+</extension>

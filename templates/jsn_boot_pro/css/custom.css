@@ -1,0 +1,54 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== CUSTOM CSS ============================== */
+/* ----- LATEST NEWS MODULE ----- */
+div.jsn-modulecontainer div.jsn-modulecontent ul.latestnews li a {
+	display: block; 
+	line-height: 36px;
+	border-bottom: 1px dotted #CCC;
+	text-decoration: none; 
+}
+#jsn-usermodules3 div.jsn-modulecontainer div.jsn-modulecontent ul.latestnews li a {
+	color: #FFF;
+	text-decoration: none;
+	border-color: rgba(255,255,255,0.2);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+}
+#jsn-usermodules3 div.jsn-modulecontainer ul.latestnews li a:hover {
+	background-color: rgba(255,255,255,0.2);
+}
+div[class*=lightbox-] ul.latestnews li a,
+#jsn-usermodules3 div[class*=lightbox-] ul.latestnews li a {
+	color: rgba(0,0,0,0.6);
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	border-color: rgba(0,0,0,0.2);
+}
+div[class*=lightbox-] ul.latestnews li a:hover,
+#jsn-usermodules3 div[class*=lightbox-] ul.latestnews li a:hover {
+	background-color: rgba(255,255,255,0.4);
+}
+
+/* MODULE CHRISTMAS ICONS */
+div.typography-article .jsn-christmas-link-icon {
+	color: #555;
+}
+
+/* DEMO ITEMS */
+@media only screen and (max-width: 960px),
+(max-device-width: 960px) {
+	img.demo-merrychristmas {
+		max-width: none;
+	}
+}
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+	div.demo-frontpage-textblock {
+		clear: both;
+		padding: 20px 0 0 0 !important;
+	}
+}

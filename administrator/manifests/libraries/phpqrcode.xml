@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.5" type="library" method="upgrade">
+	<name>PHP QR Code</name>
+	<libraryname>phpqrcode</libraryname>
+	<license>http://www.gnu.org/licenses/lgpl.html GNU/LGPL</license>
+	<author>Dominik Dzienia</author>
+	<authorUrl>http://phpqrcode.sourceforge.net</authorUrl>
+	<packager>Anything Digital</packager>
+	<packagerurl>http://anything-digital.com</packagerurl>
+	<version>1.1.4</version>
+	<description>LIB_PHPQRCODE_XML_DESCRIPTION</description>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.lib_phpqrcode.sys.ini</language>
+	</languages>
+	<files>
+		<folder>phpqrcode</folder>
+		<file>index.html</file>
+		<file>loader.php</file>
+	</files>
+</extension>

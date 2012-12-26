@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset
+		name="jclrecaptcha"
+		label="PLG_CONTENT_JCLCAPTCHA_FIELDSET"
+		addfieldpath="/plugins/content/jclcaptcha/include/fields"
+	>
+		<field
+			name="jclcaptcha"
+			type="jclcaptcha"
+			default=""
+			label="PLG_CONTENT_JCLCAPTCHA_FIELD"
+			description="PLG_CONTENT_JCLCAPTCHA_FIELD_DESC"
+		/>
+	</fieldset>
+</form>

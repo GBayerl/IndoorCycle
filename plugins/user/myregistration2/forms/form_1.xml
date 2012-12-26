@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="tos"
+		label="PLG_USER_MYREGISTRATION2_TERMS_OF_SERVICE"
+	>
+		<field name="tos_agree" type="checkbox"
+			default="0"
+			filter="bool"
+			label="PLG_USER_MYREGISTRATION2_AGREE"
+			required="true"
+			value="1"
+		/>
+
+		<field name="old_enough" type="checkbox"
+			default="0"
+			filter="bool"
+			label="PLG_USER_MYREGISTRATION2_AGE"
+			required="true"
+			value="1"
+		/>
+	</fieldset>
+</form>

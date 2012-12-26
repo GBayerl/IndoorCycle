@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.5" type="library" method="upgrade">
+  <name>JCalDate</name>
+  <libraryname>jcaldate</libraryname>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <author>Anything Digital</author>
+  <authorUrl>http://anything-digital.com</authorUrl>
+  <creationDate>2012-12-03</creationDate>
+  <version>1.0.7.1587</version>
+  <description>LIB_JCALDATE_XML_DESCRIPTION</description>
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.lib_jcaldate.sys.ini</language>
+    <language tag="ru-RU">ru-RU/ru-RU.lib_jcaldate.sys.ini</language>
+    <language tag="de-DE">de-DE/de-DE.lib_jcaldate.sys.ini</language>
+    <language tag="nl-NL">nl-NL/nl-NL.lib_jcaldate.sys.ini</language>
+    <language tag="fr-FR">fr-FR/fr-FR.lib_jcaldate.sys.ini</language>
+    <language tag="es-ES">es-ES/es-ES.lib_jcaldate.sys.ini</language>
+    <language tag="pt-BR">pt-BR/pt-BR.lib_jcaldate.sys.ini</language>
+    <language tag="sv-SE">sv-SE/sv-SE.lib_jcaldate.sys.ini</language>
+    <language tag="ro-RO">ro-RO/ro-RO.lib_jcaldate.sys.ini</language>
+  </languages>
+  <files>
+    <file>date.php</file>
+    <file>index.html</file>
+    <file>interval.php</file>
+    <file>timezone.php</file>
+    <file>exceptions/date.php</file>
+    <file>exceptions/index.html</file>
+    <file>exceptions/timezone.php</file>
+  </files>
+</extension>

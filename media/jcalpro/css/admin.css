@@ -1,0 +1,234 @@
+/**
+ * @version		$Id: admin.css 838 2012-11-29 19:44:22Z jeffchannell $
+ * @package		JCalPro
+ * @subpackage	com_jcalpro
+@ant_copyright_header@
+ */
+
+.icon-48-jcalpro {
+	background-image: url(../images/icon-48-jcalpro.png);
+}
+.icon-48-jcalpro-emails, .icon-48-jcalpro-email {
+	background-image: url(../images/icon-48-emails.png);
+}
+.icon-48-jcalpro-events, .icon-48-jcalpro-event {
+	background-image: url(../images/icon-48-events.png);
+}
+.icon-48-jcalpro-forms, .icon-48-jcalpro-form {
+	background-image: url(../images/icon-48-forms.png);
+}
+.icon-48-jcalpro-fields, .icon-48-jcalpro-field {
+	background-image: url(../images/icon-48-fields.png);
+}
+.icon-48-jcalpro-locations, .icon-48-jcalpro-location {
+	background-image: url(../images/icon-48-locations.png);
+}
+.icon-48-jcalpro-registrations, .icon-48-jcalpro-registration {
+	background-image: url(../images/icon-48-registration.png);
+}
+.icon-48-jcalpro-about {
+	background-image: url(../images/icon-48-about.png);
+}
+.icon-48-jcalpro-help {
+	background-image: url(../images/icon-48-help.png);
+}
+.icon-wrapper .icon-48-categories {
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.jcal-empty {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+/* we need to force the admin filter bar to be a little taller */
+.jcl_event_component fieldset#filter-bar {
+	height: 75px;
+}
+
+/* this is to correct any formfields that need to NOT be floating */
+.jcalnofloat * {
+	float: none;
+}
+/* argh, default template screws this up in admin */
+#jform_duration_type label {
+	min-width: 1px;
+	display: block;
+	/* IE Hack */
+/*	float: none\9 */
+}
+#jform_recur_end_type label,
+#jform_recur_type label {
+	display: block;
+	/* IE Hack */
+/*	float: none\9 */
+}
+
+#jform_end_days,
+#jform_end_hours,
+#jform_end_minutes,
+#jform_duration_type label.hasTip {
+	float: left;
+}
+
+#jform_duration_type input.jcalradio,
+#jform_rec_monthly_type input.jcalradio,
+#jform_rec_yearly_type input.jcalradio,
+#jform_recur_type input {
+	clear: both;
+}
+#jform_recur_type {
+	margin: 0 20px 5px 0;
+	min-width: 25%;
+}
+#jform_recur_end_type1 {
+	clear: both;
+}
+#jcl_rec_daily_options input,
+#jcl_rec_weekly_options input,
+#jcl_rec_monthly_options input,
+#jcl_rec_yearly_options input,
+#jcl_rec_monthly_options select,
+#jcl_rec_yearly_options select {
+	float: none;
+}
+#jcl_rec_daily_options label,
+#jcl_rec_weekly_options label,
+#jcl_rec_monthly_options label,
+#jcl_rec_yearly_options label {
+	float: none;
+	display: inline;
+	clear: none;
+}
+#jform_registration_until_event label {
+	float: none;
+	clear: none;
+}
+#jcl_component .jcl_clear {
+	clear: both;
+}
+#jcl_component .jcl_block {
+	clear: both;
+	display: block;
+	min-height: 1px;
+	min-width: 1px;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+#jcl_component .subcats {
+	padding-left: 10px;
+	margin: 3px 0;
+}
+#jcl_component .subcats, #jcl_component .subcats li {
+	text-align: left;
+	font-size: 0.9em;
+}
+
+.importform {
+	clear: both;
+	display: block;
+}
+
+.importform .adminformlist label {
+	min-width: 260px !important;
+}
+
+#jcl_registration_on_options {
+	clear: left;
+}
+
+#jcl_dashboard_feed {
+	padding: 10px;
+	max-height: 200px;
+	overflow: scroll;
+}
+
+/**
+ * fixes for Joomla! 3.0
+ */
+
+/* icons */
+.cpanel div.icon-wrapper, #cpanel div.icon-wrapper, #jcl_component div.icon-wrapper {
+  height: auto !important;
+  width: auto !important;
+  display: block !important;
+}
+.cpanel div.icon, #cpanel div.icon, #jcl_component div.icon {
+  float: left;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  text-align: center;
+  height: auto !important;
+  width: auto !important;
+}
+.cpanel div.icon a, #cpanel div.icon a, #jcl_component div.icon a {
+  -moz-transition-duration: 0.8s;
+  -moz-transition-property: background-position, -moz-border-radius-bottomleft, -moz-box-shadow;
+  background-color: #FFFFFF;
+  background-position: -30px center;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px 5px 5px 5px;
+  color: #565656;
+  display: block;
+  float: left;
+  height: 97px;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 108px;
+}
+#cpanel img, .cpanel img {
+  margin: 0 auto;
+  padding: 10px 0;
+}
+#cpanel span, .cpanel span {
+  display: block;
+  text-align: center;
+}
+
+#jcl_component .width-40  {width:40%}
+#jcl_component .width-60  {width:60%}
+#jcl_component .width-100 {width:100%}
+#jcl_component .fltlft {float:left}
+#jcl_component .fltrgt {float:right}
+#jcl_debug {width:100%;clear:both;display:block}
+
+.jcl_email_tags {list-style-type: none}
+.jcl_email_tags li {display: block; clear: both}
+.jcl_email_tags strong, .jcl_email_tags div {float: left}
+.jcl_email_tags strong {display: block; width: 180px; cursor: pointer;}
+
+.jcl_bootstrap ul.adminformlist {
+	list-style-type: none;
+}
+.jcl_bootstrap ul.adminformlist li {
+	float: left;
+	list-style-type: none;
+}
+.jcl_bootstrap ul.adminformlist li.jcl_form_label {
+	clear: left;
+}
+.jcl_bootstrap ul.adminformlist li.jcl_form_label label {
+	display: block;
+	width: 150px;
+}
+.jcl_form_editor {
+	clear: both;
+	display: block;
+}
+
+#locations-permissions-form {
+	width: 100%;
+	clear: both;
+}
+
+/* no more styles for this in 3.0 */
+#jcl_component .button2-left {
+	float: left;
+}
+
+#jform_duration_type input,
+#jcl_component select {
+	width: auto;
+	width: auto !important;
+}

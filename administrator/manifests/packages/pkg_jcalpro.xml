@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" version="2.5" method="upgrade">
+  <name>PKG_JCALPRO</name>
+  <packagename>jcalpro</packagename>
+  <version>3.2.3.1587</version>
+  <author>Anything Digital</author>
+  <authorEmail>admin@anything-digital.com</authorEmail>
+  <authorUrl>http://anything-digital.com</authorUrl>
+  <creationDate>2012-12-03</creationDate>
+  <description>PKG_JCALPRO_DESCRIPTION</description>
+  <!-- <update>http://anything-digital.com/packages/jcalpro.xml</update> -->
+  <files folder="packages">
+    <file type="file" id="jcaltheme_fire">files_jcalthemes_fire_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_fuschia_blossom">files_jcalthemes_fuschia_blossom_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_leaf">files_jcalthemes_leaf_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_minimal">files_jcalthemes_minimal_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_ocean">files_jcalthemes_ocean_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_sky">files_jcalthemes_sky_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_spartan">files_jcalthemes_spartan_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_spartan_dark">files_jcalthemes_spartan_dark_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_sunflower">files_jcalthemes_sunflower_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_tangerine">files_jcalthemes_tangerine_3.2.3.1587.zip</file>
+    <file type="file" id="jcaltheme_tree">files_jcalthemes_tree_3.2.3.1587.zip</file>
+    <file type="library" id="jcaldate">lib_jcaldate_1.0.7.1587.zip</file>
+    <file type="library" id="ical">lib_ical_2.14.zip</file>
+    <file type="library" id="htmlpurifier">lib_htmlpurifier_4.4.0.zip</file>
+    <file type="library" id="phpqrcode">lib_phpqrcode_1.1.4.zip</file>
+    <file type="plugin" id="jcalpro" group="system">plg_system_jcalpro_3.2.3.1587.zip</file>
+    <file type="plugin" id="jcalpro" group="search">plg_search_jcalpro_3.2.3.1587.zip</file>
+    <file type="plugin" id="jclcaptcha" group="content">plg_content_jclcaptcha_3.2.3.1587.zip</file>
+    <file type="plugin" id="jcalpro" group="content">plg_content_jcalpro_3.2.3.1587.zip</file>
+    <!-- <file type="plugin" id="jclregistrations" group="system">plg_system_jclregistrations_1.0.0.1587.zip</file> -->
+    <file type="plugin" id="jcalpro" group="editors-xtd">plg_editors-xtd_jcalpro_3.2.3.1587.zip</file>
+    <file type="plugin" id="sh404sefextplugincom_jcalpro" group="sh404sefextplugins">plg_sh404sefextplugins_sh404sefextplugincom_jcalpro_3.2.3.1587.zip</file>
+    <file type="plugin" id="jcalpro" group="user">plg_user_jcalpro_3.2.3.1587.zip</file>
+    <file type="module" id="mod_jcalpro_events" client="site">mod_jcalpro_events_3.2.3.1587.zip</file>
+    <file type="module" id="mod_jcalpro_calendar" client="site">mod_jcalpro_calendar_3.2.3.1587.zip</file>
+    <file type="module" id="mod_jcalpro_locations" client="site">mod_jcalpro_locations_3.2.3.1587.zip</file>
+    <file type="module" id="mod_jcalpro_flex" client="site">mod_jcalpro_flex_2.0.0.1587.zip</file>
+    <file type="component" id="com_jcalpro">com_jcalpro_3.2.3.1587.zip</file>
+  </files>
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.pkg_jcalpro.sys.ini</language>
+    <language tag="ru-RU">ru-RU/ru-RU.pkg_jcalpro.sys.ini</language>
+    <language tag="de-DE">de-DE/de-DE.pkg_jcalpro.sys.ini</language>
+    <language tag="nl-NL">nl-NL/nl-NL.pkg_jcalpro.sys.ini</language>
+    <language tag="fr-FR">fr-FR/fr-FR.pkg_jcalpro.sys.ini</language>
+    <language tag="es-ES">es-ES/es-ES.pkg_jcalpro.sys.ini</language>
+    <language tag="pt-BR">pt-BR/pt-BR.pkg_jcalpro.sys.ini</language>
+    <language tag="sv-SE">sv-SE/sv-SE.pkg_jcalpro.sys.ini</language>
+    <language tag="ro-RO">ro-RO/ro-RO.pkg_jcalpro.sys.ini</language>
+  </languages>
+</extension>

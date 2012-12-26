@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.5" type="library" method="upgrade">
+  <name>iCalcreator</name>
+  <libraryname>ical</libraryname>
+  <license>http://www.gnu.org/licenses/lgpl.html GNU/LGPL</license>
+  <creationDate>2012-08-08</creationDate>
+  <author>Kjell-Inge Gustafsson</author>
+  <authorUrl>http://kigkonsult.se/iCalcreator/index.php</authorUrl>
+  <packager>Anything Digital</packager>
+  <packagerurl>http://anything-digital.com</packagerurl>
+  <version>2.14</version>
+  <description>LIB_ICAL_XML_DESCRIPTION</description>
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.lib_ical.sys.ini</language>
+    <language tag="ru-RU">ru-RU/ru-RU.lib_ical.sys.ini</language>
+    <language tag="de-DE">de-DE/de-DE.lib_ical.sys.ini</language>
+    <language tag="nl-NL">nl-NL/nl-NL.lib_ical.sys.ini</language>
+    <language tag="fr-FR">fr-FR/fr-FR.lib_ical.sys.ini</language>
+    <language tag="es-ES">es-ES/es-ES.lib_ical.sys.ini</language>
+    <language tag="pt-BR">pt-BR/pt-BR.lib_ical.sys.ini</language>
+    <language tag="sv-SE">sv-SE/sv-SE.lib_ical.sys.ini</language>
+    <language tag="ro-RO">ro-RO/ro-RO.lib_ical.sys.ini</language>
+  </languages>
+  <files>
+    <file>iCalcreator.class.php</file>
+    <file>index.html</file>
+    <file>lgpl.txt</file>
+    <file>loader.php</file>
+  </files>
+</extension>

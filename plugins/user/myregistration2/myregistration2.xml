@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="user" method="upgrade" >
+	<name>plg_user_myregistration2</name>
+	<author>Mark Dexter and Louis Landry</author>
+	<creationDate>March 2011</creationDate>
+	<copyright>(C) 2011 Mark Dexter and Louis Landry. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.6.0</version>
+	<description>PLG_USER_MYREGISTRATION2_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="myregistration2">myregistration2.php</filename>
+		<filename>index.html</filename>
+		<folder>forms</folder>
+		<folder>language</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic" >
+				<field name="show_age_checkbox" type="radio" label="PLG_USER_MYREGISTRATION2_SHOW_AGE"
+					description="PLG_USER_MYREGISTRATION2_SHOW_AGE_DESC" default="0">
+					<option value="0">JHide</option>
+					<option value="1">JShow</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
